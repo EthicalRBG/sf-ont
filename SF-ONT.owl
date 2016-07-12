@@ -1,0 +1,3311 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/akantamn/ontologies/2016/6/untitled-ontology-25"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/akantamn/ontologies/2016/6/untitled-ontology-25">
+    <Prefix name="" IRI="http://www.semanticweb.org/akantamn/ontologies/2016/6/untitled-ontology-25#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://ontology.dumontierlab.com/unit-individuals</Import>
+    <Import>http://ontology.dumontierlab.com/unit-complex</Import>
+    <Declaration>
+        <Class IRI="#ForecastOutputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastMetrics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForecastMetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LSE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isForecastMetricOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceOutput_Begins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceModel_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardDeviation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsefulFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NWP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesArchived"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DNI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlobalScale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceOutput_Ends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HiddenLayers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutputs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forecast_Instant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atmospheric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitDispatch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModelsForLSE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANNEndUsers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASHRAEOutput_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeSeries"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MBE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RTO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RMSE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KSI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASHREA_MBE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Q"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastInput_Ends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverPer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EconomicMetrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroScale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceInput_Ends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceInput_Begins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PearsonCoefficient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAPE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EHI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applications"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForecastOutputAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SunshineBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unitTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#DurationDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResponsibilityOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastInput_Begins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GridMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StatisticalMetrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AHSRAE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MesoScale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitWeek"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SwingingDoorAlgorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimulationStudies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReliabilityPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadCurtailment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANNApplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Percentile95"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitSecond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumTermForecastInstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurtosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unitCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiddingStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenyiEntropy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastAttributes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANNForecast_Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unitArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RampMetrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModelAttributes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANNInput_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Longtitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParametricConstants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProjectDevelopers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nodes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalDomain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasModelAttributes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShortTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irradiance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastInput_Interval"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unitRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOutputOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastHorizon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GridOutage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MBE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesInputs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DHI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMSE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongTermHorizon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaxAE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkyCamera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CongestionManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RMQE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ARMA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastOutput_Ends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isForecastAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANNTemporalDomain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZenithAngle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PreviousTime_Instant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isForecastOutputAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpatialDomain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastOutput_Interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SatelliteBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NextTime_Instant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANNForecast_Resolution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CurrentTime_Instant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastResolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShortTermHorizonEndUsers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadBalancing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitCommitment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#percent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInputVariableOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albedo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpatialDomainOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadForecasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empirical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongTermHorizonEndUsers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartGridManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadScheduling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemPlanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastModels"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInputVariable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForecastOutput_Begins"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isModelAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForecastInputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PointScale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isForecastInputAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANNOutput_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntegrationStudies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTemporalDomain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTemporalDomainOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitHour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GridSecurity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UncertainityMetrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASHRAE_RMSE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skewness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyTraders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IrradianceApplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadRamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoadFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributionUtilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persistence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANN_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInputTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#inDateTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GHI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchLabs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ARIMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndUsers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForecastInputAttributes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalEquals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/time#xsdDateTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGeographicAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMinute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureBased"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutageManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANNModelAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialDomain"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ANNApplications"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Applications"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTemporalDomain"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#TemporalDomain"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isTemporalDomainOf"/>
+                        <Class IRI="#ANN"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ANNEndUsers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#EndUsers"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isResponsibleFor"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Applications"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasTemporalDomain"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#TemporalDomain"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#isTemporalDomainOf"/>
+                                <Class IRI="#ANN"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ANNModelAttributes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ModelAttributes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isModelAttributeOf"/>
+                <Class IRI="#ANN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ANNTemporalDomain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TemporalDomain"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isTemporalDomainOf"/>
+                <Class IRI="#ANN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ForecastInputs"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ForecastData"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isInputTo"/>
+                <Class IRI="#ForecastModels"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ForecastOutputs"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ForecastData"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isOutputOf"/>
+                <Class IRI="#ForecastModels"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO"/>
+        <Class IRI="#RTO"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IrradianceApplications"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Applications"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTemporalDomain"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#TemporalDomain"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isTemporalDomainOf"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#ForecastModels"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+                                <Class IRI="#Irradiance"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LongTermHorizon"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#EndUsers"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#isResponsibleFor"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#Applications"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#hasTemporalDomain"/>
+                            <Class IRI="#LongTerm"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="#Applications"/>
+                    <Class IRI="#ForecastModels"/>
+                </ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasTemporalDomain"/>
+                    <Class IRI="#LongTerm"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ModelsForLSE"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ForecastModels"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTemporalDomain"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#TemporalDomain"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isTemporalDomainOf"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Applications"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#isResponsibilityOf"/>
+                                <Class IRI="#LSE"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AHSRAE"/>
+        <Class IRI="#Empirical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AHSRAE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesInputs"/>
+            <Class IRI="#ParametricConstants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANN"/>
+        <Class IRI="#TimeSeries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANNApplications"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANNEndUsers"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANNModelAttributes"/>
+        <Class IRI="#ModelAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANNTemporalDomain"/>
+        <Class IRI="#TemporalDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARIMA"/>
+        <Class IRI="#TimeSeries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARIMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARIMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#PointScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARIMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARMA"/>
+        <Class IRI="#TimeSeries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#PointScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applications"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#SpatialDomain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applications"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#TemporalDomain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#Empirical"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#NWP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#Radiative"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#SatelliteBased"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiddingStrategy"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiddingStrategy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiddingStrategy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiddingStrategy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiddingStrategy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#EnergyTraders"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CongestionManagement"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CongestionManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CongestionManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionUtilities"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionUtilities"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadForecasting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionUtilities"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#OutageManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionUtilities"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#SmartGridManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionUtilities"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#SystemPlanning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EconomicMetrics"/>
+        <Class IRI="#ForecastMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empirical"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empirical"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#ParametricConstants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empirical"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MesoScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empirical"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empirical"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndUsers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#TemporalDomain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndUsers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#Applications"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnergyTraders"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnergyTraders"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#BiddingStrategy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastInputs"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastModels"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#ForecastInputs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastModels"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutputs"/>
+            <Class IRI="#ForecastOutputs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastModels"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#SpatialDomain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastModels"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#TemporalDomain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastOutputs"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForecastResolution"/>
+        <Class IRI="#ForecastAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicDescription"/>
+        <Class IRI="#ForecastAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlobalScale"/>
+        <Class IRI="#SpatialDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridMaintenance"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridMaintenance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridMaintenance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridMaintenance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridOutage"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridOutage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridOutage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridOutage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridSecurity"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridSecurity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridSecurity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GridSecurity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#CongestionManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridMaintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridOutage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridSecurity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadCurtailment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadFlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadRamp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#ReliabilityPlanning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#UnitCommitment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#UnitDispatch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ProjectDevelopers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ResearchLabs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#ANN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#ARIMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#ARMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#Persistence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOutputOf"/>
+            <Class IRI="#ForecastModels"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IrradianceApplications"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KSI"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurtosis"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSE"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadBalancing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadScheduling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadBalancing"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadBalancing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadBalancing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadBalancing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#LSE"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadCurtailment"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadCurtailment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadCurtailment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadCurtailment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadFlow"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadFlow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadFlow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadFlow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadForecasting"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadForecasting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadForecasting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#DistributionUtilities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadRamp"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadRamp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadRamp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadRamp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadScheduling"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadScheduling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadScheduling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoadScheduling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#LSE"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <Class IRI="#TemporalDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#Empirical"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridMaintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridOutage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridSecurity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#IntegrationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#NWP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#Radiative"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ReliabilityPlanning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SimulationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SystemPlanning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTermHorizon"/>
+        <Class IRI="#ForecastHorizon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTermHorizonEndUsers"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAPE"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MBE"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaxAE"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <Class IRI="#TemporalDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ANN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ARIMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ARMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#BiddingStrategy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#CongestionManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridMaintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridOutage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#GridSecurity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#IntegrationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadBalancing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadCurtailment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadFlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadForecasting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadRamp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadScheduling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#NWP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#OutageManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SatelliteBased"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SimulationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SkyCamera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SmartGridManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#UnitCommitment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#UnitDispatch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MesoScale"/>
+        <Class IRI="#SpatialDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroScale"/>
+        <Class IRI="#SpatialDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroScale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Atmospheric"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroScale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Irradiance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroScale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Weather"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModelsForLSE"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Atmospheric"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutputs"/>
+            <Class IRI="#Irradiance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#GlobalScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MesoScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NWP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesInputs"/>
+            <Class IRI="#Atmospheric"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutageManagement"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutageManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutageManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#DistributionUtilities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverPer"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParametricConstants"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParametricConstants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#Empirical"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PearsonCoefficient"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Percentile95"/>
+        <Class IRI="#EconomicMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persistence"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persistence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Irradiance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persistence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persistence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#PointScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persistence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointScale"/>
+        <Class IRI="#SpatialDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProjectDevelopers"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProjectDevelopers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#IntegrationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProjectDevelopers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#SimulationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RMQE"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RMSE"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#CongestionManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridMaintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridOutage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#GridSecurity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadCurtailment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadFlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#LoadRamp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#ReliabilityPlanning"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#UnitCommitment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RTO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#UnitDispatch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Irradiance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MesoScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiative"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RampMetrics"/>
+        <Class IRI="#ForecastMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReliabilityPlanning"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReliabilityPlanning"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenyiEntropy"/>
+        <Class IRI="#UncertainityMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchLabs"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchLabs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#IntegrationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchLabs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibleFor"/>
+            <Class IRI="#SimulationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Atmospheric"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#GlobalScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MesoScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatelliteBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <Class IRI="#TemporalDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ANN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ARIMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#ARMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#BiddingStrategy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#IntegrationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadBalancing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadCurtailment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadFlow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadRamp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#LoadScheduling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#OutageManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#Persistence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SatelliteBased"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SimulationStudies"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#SmartGridManagement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#TimeSeries"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#UnitCommitment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTerm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTemporalDomainOf"/>
+            <Class IRI="#UnitDispatch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShortTermHorizonEndUsers"/>
+        <Class IRI="#EndUsers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ProjectDevelopers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulationStudies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ResearchLabs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skewness"/>
+        <Class IRI="#StatisticalMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Atmospheric"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Weather"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MesoScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#MicroScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpatialDomain"/>
+            <Class IRI="#PointScale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCamera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartGridManagement"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartGridManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartGridManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartGridManagement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#DistributionUtilities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialDomain"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutputs"/>
+            <Class IRI="#ForecastData"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialDomain"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesInputs"/>
+            <Class IRI="#ForecastData"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardDeviation"/>
+        <Class IRI="#UncertainityMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StatisticalMetrics"/>
+        <Class IRI="#ForecastMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunshineBased"/>
+        <Class IRI="#Empirical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwingingDoorAlgorithm"/>
+        <Class IRI="#RampMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemPlanning"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemPlanning"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemPlanning"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#DistributionUtilities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureBased"/>
+        <Class IRI="#Empirical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesInputs"/>
+            <Class IRI="#ParametricConstants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureBased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesInputs"/>
+            <Class IRI="#Weather"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeSeries"/>
+        <Class IRI="#ForecastModels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeSeries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Irradiance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeSeries"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+            <Class IRI="#Weather"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UncertainityMetrics"/>
+        <Class IRI="#ForecastMetrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitCommitment"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitCommitment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitCommitment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitCommitment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitDispatch"/>
+        <Class IRI="#Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitDispatch"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitDispatch"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitDispatch"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResponsibilityOf"/>
+            <Class IRI="#ISO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <Class IRI="#ForecastData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInputTo"/>
+            <Class IRI="#ANN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <Class IRI="#ForecastAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#DurationDescription"/>
+        <Class IRI="#ForecastAttributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <Class IRI="#ForecastAttributes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#EconomicMetrics"/>
+        <Class IRI="#RampMetrics"/>
+        <Class IRI="#StatisticalMetrics"/>
+        <Class IRI="#UncertainityMetrics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SpatialDomain"/>
+        <Class IRI="#TemporalDomain"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#SpatialDomain"/>
+        <Class IRI="#GlobalScale"/>
+        <Class IRI="#MesoScale"/>
+        <Class IRI="#MicroScale"/>
+        <Class IRI="#PointScale"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#TemporalDomain"/>
+        <Class IRI="#LongTerm"/>
+        <Class IRI="#MediumTerm"/>
+        <Class IRI="#ShortTerm"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DurationDescription"/>
+        <NamedIndividual IRI="#ANNForecast_Duration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastResolution"/>
+        <NamedIndividual IRI="#ANNForecast_Resolution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastInputs"/>
+        <NamedIndividual IRI="#ANNInput_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastOutputs"/>
+        <NamedIndividual IRI="#ANNOutput_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANN"/>
+        <NamedIndividual IRI="#ANN_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastInputs"/>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastOutputs"/>
+        <NamedIndividual IRI="#ASHRAEOutput_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RMSE"/>
+        <NamedIndividual IRI="#ASHRAE_RMSE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MBE"/>
+        <NamedIndividual IRI="#ASHREA_MBE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#Albedo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicDescription"/>
+        <NamedIndividual IRI="#Altitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#CSI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#CurrentTime_Instant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#DHI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#DNI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#EHI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#ForecastInput_Begins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#ForecastInput_Ends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <NamedIndividual IRI="#ForecastInput_Interval"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#ForecastOutput_Begins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#ForecastOutput_Ends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <NamedIndividual IRI="#ForecastOutput_Interval"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#Forecast_Instant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irradiance"/>
+        <NamedIndividual IRI="#GHI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ModelAttributes"/>
+        <NamedIndividual IRI="#HiddenLayers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#ModelAttributes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isModelAttributeOf"/>
+                <Class IRI="#ANN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#HiddenLayers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicDescription"/>
+        <NamedIndividual IRI="#Latitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicDescription"/>
+        <NamedIndividual IRI="#Longtitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Applications"/>
+                <Class IRI="#ForecastModels"/>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTemporalDomain"/>
+                <Class IRI="#MediumTerm"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#MediumTermForecastInstance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#NextTime_Instant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ModelAttributes"/>
+        <NamedIndividual IRI="#Nodes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#ModelAttributes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isModelAttributeOf"/>
+                <Class IRI="#ANN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Nodes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParametricConstants"/>
+        <NamedIndividual IRI="#P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#PersistenceInput_Begins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#PersistenceInput_Ends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastInputs"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persistence"/>
+        <NamedIndividual IRI="#PersistenceModel_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#PersistenceOutput_Begins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#PersistenceOutput_Ends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForecastOutputs"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#PreviousTime_Instant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParametricConstants"/>
+        <NamedIndividual IRI="#Q"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParametricConstants"/>
+        <NamedIndividual IRI="#R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Temperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParametricConstants"/>
+        <NamedIndividual IRI="#ZenithAngle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicUnit"/>
+        <NamedIndividual IRI="#unitArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicUnit"/>
+        <NamedIndividual IRI="#unitCountry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicUnit"/>
+        <NamedIndividual IRI="#unitRegion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="#unitTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#MediumTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitDay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitHour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMinute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#ShortTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitSecond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitWeek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemporalDomain"/>
+            <Class IRI="#LongTerm"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ANNInput_1"/>
+        <NamedIndividual IRI="#GHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ANNInput_1"/>
+        <NamedIndividual IRI="#Temperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#ANNOutput_1"/>
+        <NamedIndividual IRI="#GHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#ANNInput_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#ANNForecast_Duration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#ANNForecast_Resolution"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#HiddenLayers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#Nodes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#Latitude"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#Longtitude"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputs"/>
+        <NamedIndividual IRI="#ANN_1"/>
+        <NamedIndividual IRI="#ANNOutput_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+        <NamedIndividual IRI="#P"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+        <NamedIndividual IRI="#Q"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+        <NamedIndividual IRI="#R"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#ASHRAEInput_1"/>
+        <NamedIndividual IRI="#ZenithAngle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#ASHRAEOutput_1"/>
+        <NamedIndividual IRI="#DNI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalEquals"/>
+        <NamedIndividual IRI="#ASHRAEOutput_1"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#inDateTime"/>
+        <NamedIndividual IRI="#PersistenceInput_Begins"/>
+        <NamedIndividual IRI="#PreviousTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#inDateTime"/>
+        <NamedIndividual IRI="#PersistenceInput_Ends"/>
+        <NamedIndividual IRI="#PreviousTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#Albedo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#CSI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#CurrentTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#DHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#DNI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#EHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#PersistenceInput_Begins"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+        <NamedIndividual IRI="#PersistenceInput_Ends"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+        <NamedIndividual IRI="#PersistenceModel_1"/>
+        <NamedIndividual IRI="#PersistenceInputs_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputs"/>
+        <NamedIndividual IRI="#PersistenceModel_1"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#inDateTime"/>
+        <NamedIndividual IRI="#PersistenceOutput_Begins"/>
+        <NamedIndividual IRI="#NextTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#inDateTime"/>
+        <NamedIndividual IRI="#PersistenceOutput_Ends"/>
+        <NamedIndividual IRI="#NextTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#Albedo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#CSI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#CurrentTime_Instant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#DHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#DNI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#EHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOutputVariable"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#GHI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#PersistenceOutput_Begins"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+        <NamedIndividual IRI="#PersistenceOutputs_1"/>
+        <NamedIndividual IRI="#PersistenceOutput_Ends"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hours"/>
+        <NamedIndividual IRI="#ANNForecast_Duration"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hours"/>
+        <NamedIndividual IRI="#ANNForecast_Resolution"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#percent"/>
+        <NamedIndividual IRI="#ASHRAE_RMSE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#percent"/>
+        <NamedIndividual IRI="#ASHREA_MBE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#CurrentTime_Instant"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#ForecastInput_Begins"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#ForecastInput_Ends"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#xsdDateTime"/>
+        <NamedIndividual IRI="#ForecastInput_Interval"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#ForecastOutput_Begins"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#ForecastOutput_Ends"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#xsdDateTime"/>
+        <NamedIndividual IRI="#ForecastOutput_Interval"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#Forecast_Instant"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://ontology.dumontierlab.com/hasValue"/>
+        <NamedIndividual IRI="#Latitude"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">45°38′44″N</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://ontology.dumontierlab.com/hasValue"/>
+        <NamedIndividual IRI="#Longtitude"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">45°38′44″N</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#NextTime_Instant"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CurrentTime_Instant + unitTime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#PersistenceInput_Begins"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#PersistenceInput_Ends"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#PersistenceOutput_Begins"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#PersistenceOutput_Ends"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <NamedIndividual IRI="#PreviousTime_Instant"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CurrentTime_Instant - unitTime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#degree"/>
+        <NamedIndividual IRI="#ZenithAngle"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasForecastInputAttributes"/>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasForecastOutputAttributes"/>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isForecastInputAttributeOf"/>
+        <ObjectProperty IRI="#isForecastAttributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isForecastOutputAttributeOf"/>
+        <ObjectProperty IRI="#isForecastAttributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usesArchived"/>
+        <ObjectProperty IRI="#uses"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usesInputs"/>
+        <ObjectProperty IRI="#uses"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <ObjectProperty IRI="#isForecastAttributeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasForecastInputAttributes"/>
+        <ObjectProperty IRI="#isForecastInputAttributeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasForecastMetric"/>
+        <ObjectProperty IRI="#isForecastMetricOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasForecastOutputAttributes"/>
+        <ObjectProperty IRI="#isForecastOutputAttributeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+        <ObjectProperty IRI="#isGeographicAttributeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInputVariable"/>
+        <ObjectProperty IRI="#isInputVariableOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasModelAttributes"/>
+        <ObjectProperty IRI="#isModelAttributeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOutputs"/>
+        <ObjectProperty IRI="#isOutputOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSpatialDomain"/>
+        <ObjectProperty IRI="#isSpatialDomainOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTemporalDomain"/>
+        <ObjectProperty IRI="#isTemporalDomainOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isInputTo"/>
+        <ObjectProperty IRI="#usesInputs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isResponsibilityOf"/>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUsefulFor"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isUsefulFor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#uses"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <Class IRI="#ForecastModels"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForecastMetric"/>
+        <Class IRI="#ForecastModels"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+        <Class IRI="#ForecastModels"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isModelAttributeOf"/>
+        <Class IRI="#ModelAttributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForecastAttribute"/>
+        <Class IRI="#ForecastAttributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForecastMetric"/>
+        <Class IRI="#ForecastMetrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGeographicAttribute"/>
+        <Class IRI="#GeographicDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isModelAttributeOf"/>
+        <Class IRI="#ForecastModels"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Albedo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Irradiance reflected by the ground</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CSI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clear Sky Irradiance. Maximum GHI during clear sky days.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DHI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Direct Horizontal Irradiance - Total irradiance from the sky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DNI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Direct normal irradiance. Irradiance directly from the sky incident normal to f a flat plate collector on the the surface of the earth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EHI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Irradiance at the top of the atmosphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GHI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Global Horizontal Irradiance. Sum of all irradiance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NextTime_Instant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#P</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Empirical constant for ASHRAE input obtained from observation stations. ASHRAE provides this for locations in the US</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Q</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Empirical constant for ASHRAE input obtained from observation stations. ASHRAE provides this for locations in the US</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#R</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Empirical constant for ASHRAE input obtained from observation stations. ASHRAE provides this for locations in the US</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZenithAngle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ZenithAngle</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
