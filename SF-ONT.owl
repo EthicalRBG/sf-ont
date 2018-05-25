@@ -15,10 +15,10 @@
     <Import>http://ontology.dumontierlab.com/unit-individuals</Import>
     <Import>http://ontology.dumontierlab.com/unit-complex</Import>
     <Declaration>
-        <Class IRI="#ForecastOutputs"/>
+        <Class IRI="#ForecastMetrics"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ForecastMetrics"/>
+        <Class IRI="#ForecastOutputs"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasForecastMetric"/>
